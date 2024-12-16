@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from "next/link"
 import Image from "next/image"
-import { Send, Anchor, Twitter, Copy, Check, GemIcon as Treasure } from 'lucide-react'
+import { Send, Twitter, Copy, Check, GemIcon as Treasure } from 'lucide-react'
 
 export default function Page() {
   const [copied, setCopied] = useState(false)
